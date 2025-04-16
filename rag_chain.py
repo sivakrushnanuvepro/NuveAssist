@@ -4,8 +4,9 @@ from langchain.chains import RetrievalQA
 from langchain_google_genai import ChatGoogleGenerativeAI
 import streamlit as st
 
-api_key = st.secrets["GOOGLE_API_KEY"]
+#api_key = st.secrets["GOOGLE_API_KEY"]
 #api_key = os.getenv("GOOGLE_API_KEY")
+api_key = "AIzaSyBwG60KcsRtWqLeIVzyYOHezOcM4N04_Xw"
 
 import os
 from dotenv import load_dotenv
