@@ -17,6 +17,6 @@ def load_rag_chain():
 
     retriever = db.as_retriever()
 
-    llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash",google_api_key=os.getenv("GOOGLE_API_KEY"),)
+    llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash",google_api_key=api_key,)
     rag_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
     return rag_chain
