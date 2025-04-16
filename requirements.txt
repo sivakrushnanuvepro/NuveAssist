@@ -1,0 +1,11 @@
+langchain
+faiss-cpu
+PyPDF2
+google-generativeai
+fastapi
+uvicorn
+streamlit
+dotenv
+langchain-community
+langchain-google-genai
+pypdf
